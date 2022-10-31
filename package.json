@@ -1,23 +1,33 @@
 {
   "name": "tpng",
   "version": "1.0.1",
-  "description": "",
+  "description": "- Mac OS - Node.js - v10.17.0 - npm - v6.11.3",
   "main": "index.js",
-  "scripts": {
-    "version:patch": "npm version patch --no-git-tag",
-    "version:minor": "npm version minor --no-git-tag",
-    "version:major": "npm version major --no-git-tag"
-  },
   "bin": {
-    "tpng": "bin/tpng.js"
+    "tpng": "tpng.js",
+    "tiny": "tpng.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "graceful-fs": "^4.2.10",
+    "jsonfile": "^6.1.0",
+    "universalify": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/vaneao/tpng.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jsonfile": "^6.1.0"
-  }
+  "bugs": {
+    "url": "https://github.com/vaneao/tpng/issues"
+  },
+  "homepage": "https://github.com/vaneao/tpng#readme"
 }
