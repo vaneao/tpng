@@ -1,11 +1,10 @@
 {
   "name": "tpng",
   "version": "1.0.3",
-  "description": "- Mac OS - Node.js - v10.17.0 - npm - v6.11.3",
   "main": "index.js",
   "bin": {
-    "tpng": "tpng.js",
-    "tiny": "tpng.js"
+    "tpng": "bin/tpng.js",
+    "tiny": "bin/tpng.js"
   },
   "directories": {
     "lib": "lib"
@@ -22,7 +21,7 @@
     "url": "git+https://github.com/vaneao/tpng.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ericking",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vaneao/tpng/issues"
