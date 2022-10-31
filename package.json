@@ -1,6 +1,6 @@
 {
   "name": "tpng",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "- Mac OS - Node.js - v10.17.0 - npm - v6.11.3",
   "main": "index.js",
   "bin": {
