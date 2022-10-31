@@ -1,0 +1,23 @@
+{
+  "name": "tpng",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "version:patch": "npm version patch --no-git-tag",
+    "version:minor": "npm version minor --no-git-tag",
+    "version:major": "npm version major --no-git-tag"
+  },
+  "bin": {
+    "tpng": "bin/tpng.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0"
+  }
+}
