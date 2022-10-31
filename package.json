@@ -1,6 +1,6 @@
 {
   "name": "tpng",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "- Mac OS - Node.js - v10.17.0 - npm - v6.11.3",
   "main": "index.js",
   "bin": {
@@ -16,8 +16,7 @@
     "universalify": "^2.0.0"
   },
   "devDependencies": {},
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vaneao/tpng.git"
